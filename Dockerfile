@@ -4,10 +4,10 @@ COPY . .
 RUN apk add libc-dev && rustup component add clippy \
     && cargo clippy --no-deps \
     && cargo check \
-    && cargo build
+    && cargo build -r
 
 FROM alpine
 WORKDIR /app
 EXPOSE 9000
-COPY --from=builder /app/target/debug/fritzbox-prometheus .
+COPY --from=builder /app/target/release/fritzbox-prometheus .
 CMD ["./fritzbox-prometheus"]
