@@ -1,6 +1,6 @@
 # fritzbox-prometheus
 
-[![build](https://github.com/domnikl/fritzbox-prometheus/workflows/build/badge.svg)](https://github.com/domnikl/fritzbox-prometheus/actions)
+[![build](https://github.com/domnikl/fritzbox-prometheus/workflows/main/badge.svg)](https://github.com/domnikl/fritzbox-prometheus/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/domnikl/fritzbox-prometheus-exporter)](https://hub.docker.com/repository/docker/domnikl/fritzbox-prometheus-exporter)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
