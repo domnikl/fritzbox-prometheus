@@ -1,5 +1,9 @@
 # fritzbox-prometheus
 
+[![build](https://github.com/domnikl/fritzbox-prometheus/workflows/build/badge.svg)](https://github.com/domnikl/fritzbox-prometheus/actions)
+[![Docker Pulls](https://img.shields.io/docker/pulls/domnikl/fritzbox-prometheus-exporter)](https://hub.docker.com/repository/docker/domnikl/fritzbox-prometheus-exporter)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 A Prometheus exporter for Fritzbox AVM Smart Home devices that logs `power`, `voltage`, `energy` and `temperature` to be scraped by a [Prometheus](https://prometheus.io/) instance.
 
 ## Run it
