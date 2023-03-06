@@ -1,8 +1,7 @@
 use std::{collections::HashMap, error};
 
-use fritzapi::AVMDevice;
+use fritzapi::{AVMDevice};
 
-#[derive(Debug)]
 pub struct FritzboxPrometheus {
     username: String,
     password: String,
@@ -76,5 +75,20 @@ impl Metrics {
             voltage,
             temperature,
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    // Note this useful idiom: importing names from outer (for mod tests) scope.
+    use super::*;
+
+    #[test]
+    fn test_new_fritzbox_prometheus() {
+        let fritzbox_prometheus = FritzboxPrometheus::new(String::from("abc"), String::from("def"));
+
+        assert_eq!(String::from("abc"), fritzbox_prometheus.username);
+        assert_eq!(String::from("def"), fritzbox_prometheus.password);
+        assert_eq!(None, fritzbox_prometheus.sid);
     }
 }
