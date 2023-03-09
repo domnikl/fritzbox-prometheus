@@ -1,4 +1,4 @@
-FROM rust:1.67-alpine AS builder
+FROM rust:1.68-alpine AS builder
 WORKDIR /app
 COPY . .
 RUN apk add libc-dev && rustup component add clippy \
