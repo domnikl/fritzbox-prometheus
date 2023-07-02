@@ -7,5 +7,5 @@ edition = "2021"
 
 [dependencies]
 fritzapi = "0.3.5"
-metrics = "0.21.0"
+metrics = "0.21.1"
 metrics-exporter-prometheus = "0.12.1"
