@@ -106,9 +106,9 @@ dependencies = [
 
 [[package]]
 name = "fritzapi"
-version = "0.3.5"
+version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cfa1ec9064aaa23b122554e9c7e3ee258c4c73ddbc6cac006fb7f472f5c78540"
+checksum = "6236540e7a8f91c842a496ec9b394bb1f0f460c2b53f8a019c6a0b52e93238a3"
 dependencies = [
  "lazy_static",
  "log",
@@ -600,9 +600,9 @@ dependencies = [
 
 [[package]]
 name = "serde-xml-rs"
-version = "0.4.1"
+version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f0bf1ba0696ccf0872866277143ff1fd14d22eec235d2b23702f95e6660f7dfa"
+checksum = "fb3aa78ecda1ebc9ec9847d5d3aba7d618823446a049ba2491940506da6e2782"
 dependencies = [
  "log",
  "serde",
